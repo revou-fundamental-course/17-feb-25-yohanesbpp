@@ -21,11 +21,9 @@ body {
 }
 
 .logo-container img {
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 500px;
     background-size: cover;
-    border-radius: 50%;
-    border: 1px solid rgb(255, 125, 0);
 }
 
 nav {
@@ -35,7 +33,7 @@ nav {
 
 nav a {
     padding: 10px 15px;
-    color: rgb(255, 236, 209);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     border: 1px solid rgb(255, 125, 0);
     border-radius: 12px;
@@ -92,7 +90,6 @@ nav a {
     flex-direction: column; 
     align-items: center;
     overflow: hidden;
-    border-bottom: 1px solid rgb(21, 97, 109);
     text-align: center;
 }
 
@@ -113,10 +110,12 @@ nav a {
 }
 
 .testimonial-text {
+    padding: 10px;
     font-style: italic;
     color: rgb(21, 97, 109);
     font-size: 16px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    border-top: 1px solid rgb(21, 97, 109);
 }
 
 .testimonial-user {
@@ -171,6 +170,8 @@ nav a {
 
 /* Styling dropdown (select) */
 #contact-form select {
+    width: 100%; 
+    padding: 10px;
     appearance: none;
     background-color: #ffffff;
     cursor: pointer;
@@ -248,9 +249,8 @@ nav a {
 /* Closing Argument Section */
 #closing-argument {
     text-align: center;
-    padding: 60px 20px;
-    background-color: rgb(255, 236, 209);
-    border-top: 2px solid rgb(255, 125, 0); 
+    padding: 15px;
+    background-color: #ffffff;
     border-bottom: 9px solid rgb(255, 125, 0); 
 }
 
@@ -258,7 +258,7 @@ nav a {
 #closing-argument h2 {
     font-size: 28px;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 /* Deskripsi (Teks Tengah) */
@@ -291,7 +291,7 @@ nav a {
 /* Styling Ikon */
 .contact-item i {
     margin-right: 10px;
-    color: rgb(21, 97, 109); 
+    color: rgb(255, 125, 0); 
     font-size: 20px;
 }
 
@@ -328,21 +328,21 @@ footer {
 }
 
 /* Logo Styling */
-.logo-container img {
+.logo-footer img {
     height: 50px;
-    width: 50px;
+    width: 250px;
     background-size: cover;
 }
 
 /* Link Styling */
 .footer-links {
-    margin-top: 10px;
+    margin-top: 2px;
 }
 
 .footer-links a {
     color: #ddd;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 1px;
     font-size: 14px;
 }
 
@@ -354,5 +354,5 @@ footer {
 .copyright {
     color: rgb(255, 125, 0);
     font-size: 14px;
-    margin-top: 5px;
+    margin-top: 2px;
 }
